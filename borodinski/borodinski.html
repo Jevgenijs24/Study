@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BarberShop Borodinski</title>
+	  <link href="main.css" rel="stylesheet">
+</head>
+<body class="inner-page">
+	<header class="main-header">
+		<nav class="main-navigation">
+			<a class="main-header-logo">
+				<img src="img/index-logo.svg" width="368" height="153" alt="logo">
+			</a>
+				<div class="main-navigation-wrapper">
+					<div class="container">
+						<ul class="site-navigation">
+							<li><a href="info.html">Informacija</a></li>
+							<li><a href="news.html">Novosti</a></li>
+							<li><a href="pricelist.html">Prajs list</a></li>
+							<li><a href="shop.html">Magazin</a></li>
+							<li><a href="contacts.html">Kontakti</a></li>
+						</ul>
+						<ul class="user-navigation">
+							<li class="login-link">
+								<a href="login.hmtl">Vhod</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+		</nav>
+
+	</header><!-- /header -->
+	<main class="container">
+		<h1 class="visually-hidden">Parehmaherskaja Borodinski</h1>
+		<section class="features">
+			<h2 class="visually-hidden">Preimu6estva</h2>
+			<ul class="features-list">
+				<li class="features-item">
+					<h3>Bistro</h3>
+					<p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+				</li>
+				<li class="features-item">
+					<h3>Kruto</h3>
+					<p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.
+					МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!
+					ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+					</p>
+				</li>
+				<li class="features-item">
+					<h3>Dorogo</h3>
+					<p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?
+					</p>
+				</li>
+			</ul>
+		</section>
+		<div class="index-columns">
+			<section class="news">
+				<h2>Novosti</h2>
+				<ul class="news-list">
+					<li class="news-item">
+						<p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+						<time datetime="2016-01-11">11 janvarja</time>
+					</li>
+					<li class="news-item">
+						<p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+						<time datetime="2016-01-18">18 janvarja</time>
+					</li>
+				</ul>
+				<a class="button" href="news.html">Vse novosti</a>
+			</section>
+			<section class="gallery">
+				<h2>Fotogalereja</h2>
+				<figure class="gallery-content">
+					<a href="#"><img src="img/studio.jpg" width="286" height="164" alt="Parikmaherskaja"></a>
+				</figure>
+				<button class="button gallery-back" type="button" disabled>Nazad</button>
+				<button class="button gallery-next" type="button">Vperjod</button>
+			</section>
+		</div>
+		<div class="index-columns">
+			<section class="contacts">
+				<h2>КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+				<p>
+					БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+					АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>	
+					ТЕЛЕФОН: +7 (495) 666-02-66
+				</p>
+				<p>
+					ВРЕМЯ РАБОТЫ:<br>
+					ПН—ПТ: С 10:00 ДО 22:00<br>
+					СБ—ВС: С 10:00 ДО 19:00
+				</p>
+				<a class="button contacts-button" href="map.html">КАК ПРОЕХАТЬ</a>
+				<a class="button contacts-button" href="">ОБРАТНАЯ СВЯЗЬ</a>
+			</section>
+			<section class="appointment">
+				<h2>ЗАПИСАТЬСЯ</h2>
+				<p class="appointment-info">
+					УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ<br> ПОДТВЕРЖДЕНИЯ БРОНИ
+				</p>
+				<form class="appointment-form" action="#" method="post">
+					<p class="appointment-item">
+						<label for="appointment-date">Data</label>
+						<input type="text" name="date" value="" placeholder="01.03.2018">
+					</p>
+					<p class="appointment-item">
+						<label for="appointment-time">Vremja</label>
+						<input type="text" name="time" value="" placeholder="12:00">
+					</p>
+					<p class="appointment-item">
+						<label for="appointment-name">Vashe imja</label>
+						<input type="text" name="name" value="" placeholder="Kostja">
+					</p>
+					<p class="appointment-item">
+						<label for="appointment-phone">Vash telefon</label>
+						<input type="tel" name="phone" value="" placeholder="+371 29587441">
+					</p>
+					<button class="button" type="submit">Otpravitj</button>
+				</form>
+			</section>
+		</div>
+	</main>
+
+	<footer class="main-footer">
+		<div class="container">
+			<p class="footer-contacts">
+				БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+				АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>	
+				<a href="map.hmtl">КАК НАС НАЙТИ?</a><br>
+				ТЕЛЕФОН: +371 28957165
+			</p>
+			<section class="footer-social">
+				<ul>
+					<li><a class="social-button" href="#">VK</a></li>
+					<li><a class="social-button" href="#">Fb</li>
+					<li><a class="social-button" href="#">Inst</li>
+				</ul>
+			</section>
+			<div class="footer-copyright">
+				<b>Napisanno Jevgenijem</b>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
